@@ -14,8 +14,6 @@ body {
 }
 
 nav {
-  margin: 0 auto;
-  padding: 15px 0 15px 15px;
   position: fixed;
   width: 575px;
   background-color: white;
@@ -24,70 +22,43 @@ nav {
 
 .bus-list {
   padding-top: 50px;
+  background-color: white;
 }
 
-/* div h1 {
-  font-size: 12px;
-  font-weight: bold;
-  padding-bottom: 5px;
-  float: left;
-  width: 33%;
-}
-
-div h3 {
-  font-size: 12px;
-  float:left;
-  width: 33%;
-} */
 .line {
-  float: left;
-  width: 30%;
-  font-size: 16px;
+  border-bottom: 1px solid #979797;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.line h1 {
-  margin-bottom: 20px;
-}
-
-.destination {
-  float: left;
-  width: 30%;
-  font-size: 16px;
-}
-
-.destination h3 {
-  margin-bottom: 20px;
-}
-
-.frequency {
-  float: left;
-  width: 30%;
-  font-size: 16px;
-}
-
-.frequency h3 {
-  margin-bottom: 20px;
+.details li {
+  display: inline-block;
 }
 
 .route {
+  width: 10%;
+  margin-left: 20px;
+}
+
+.stop {
+  width: 40%;
+  text-align:center;
+}
+
+.time {
+  width: 40%;
+  text-align: center;
+}
+
+.map {
+  margin: 0 auto;
+  width: 575px;
+}
+
+.title {
   font-size: 20px;
-  margin-bottom: 3%;
-}
-
-.content {
-  display: inline-block;
-  width: 95%;
-}
-
-.arrow {
-  display: inline-block;
-  width: 5%;
-  float:right;
-  margin-top: auto;
-}
-
-.location {
-  padding: 20px;
-  border-bottom: 1px solid #979797;
-  background-color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
