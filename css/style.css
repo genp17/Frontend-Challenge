@@ -17,7 +17,6 @@ nav {
   position: fixed;
   width: 375px;
   background-color: white;
-  border-bottom: 1px solid #979797;
 }
 
 .bus-list {
@@ -42,17 +41,25 @@ nav {
   text-align: left;
 }
 
-.stop {
-  width: 35%;
-  margin-right: 3%;
-  margin-left: 2%;
-  text-align: left;
+.time {
+  /* width: 20%; */
+  /* margin-right: 3%;
+  margin-left: 2%; */
+  text-align: right;
+
 }
 
-.time {
-  width: 30%;
+.stop {
+  width: 40%;
   text-align: right;
-  margin-right: 4%;
+  /* margin-right: 4%; */
+}
+
+.arrow {
+  width: 5%;
+  text-align: right;
+  vertical-align: middle;
+  padding-left: 10%;
 }
 
 .map {
@@ -64,8 +71,18 @@ nav {
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 8%;
+  padding-bottom: 1%;
+  padding-right: 15%;
+}
+
+.backarrow {
+  float: left;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  width: 17%;
+
 }
 
 .name {
@@ -77,4 +94,25 @@ nav {
 
 .green {
   background-color: #4cd964;
+}
+
+.bottomnav {
+  width:375px;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.bus {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.nextbus {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: white;
+  padding-left: 4%;
 }
