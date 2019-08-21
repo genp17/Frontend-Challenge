@@ -26,13 +26,14 @@ nav {
 
 .routes {
   border-bottom: 1px solid #979797;
-  font-size: .90rem;
+  font-size: .80rem;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .details li {
   display: inline-block;
+  position: relative;
 }
 
 .line {
@@ -42,26 +43,25 @@ nav {
 }
 
 .time {
-  /* width: 20%; */
-  /* margin-right: 3%;
-  margin-left: 2%; */
-  text-align: right;
+  text-align: left;
   width: 15%;
-
+  margin-left: 3%;
 
 }
 
 .stop {
-  width: 40%;
-  text-align: right;
-  /* margin-right: 4%; */
+  width: 35%;
+  text-align: left;
+  margin-left: 7%;
 }
 
 .arrow {
   width: 5%;
   align: left;
-  padding-left: 15%;
+  padding-left: 8%;
   display: inline-block;
+  top:auto;
+
 }
 
 .map {
@@ -89,9 +89,10 @@ nav {
 
 .name {
   padding-left: 4%;
-  padding-top: 1%;
+  padding-top: 3%;
   font-size: .75rem;
   text-align: left;
+  font-style: italic;
 }
 
 .green {
@@ -105,7 +106,7 @@ nav {
 .heading {
   font-weight: 500;
   font-size: 1rem;
-  text-align: right;
+  text-align: left;
 }
 
 .bus {
