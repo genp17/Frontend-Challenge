@@ -26,7 +26,7 @@ nav {
 
 .routes {
   border-bottom: 1px solid #979797;
-  font-size: .80rem;
+  font-size: .90rem;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -46,6 +46,8 @@ nav {
   /* margin-right: 3%;
   margin-left: 2%; */
   text-align: right;
+  width: 15%;
+
 
 }
 
@@ -57,9 +59,9 @@ nav {
 
 .arrow {
   width: 5%;
-  text-align: right;
-  vertical-align: middle;
-  padding-left: 10%;
+  align: left;
+  padding-left: 15%;
+  display: inline-block;
 }
 
 .map {
