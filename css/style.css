@@ -19,6 +19,12 @@ nav {
   background-color: white;
 }
 
+.backarrow {
+  color: #007AFF;
+  font-size: 1rem;
+  padding-right: 10%;
+}
+
 .bus-list {
   padding-top: 50px;
   background-color: white;
@@ -76,16 +82,17 @@ nav {
   padding-top: 8%;
   padding-bottom: 1%;
   padding-right: 15%;
+  margin-right: 10%;
 }
 
-.backarrow {
+/* .backarrow {
   float: left;
   padding-top: 5%;
   padding-bottom: 2%;
   padding-left: 1%;
   width: 17%;
 
-}
+} */
 
 .name {
   padding-left: 4%;
@@ -113,9 +120,33 @@ nav {
   font-weight: 500;
   font-size: 1rem;
 }
+
 .nextbus {
   font-weight: 600;
   font-size: 1.1rem;
   color: white;
   padding-left: 4%;
+}
+
+.bottomnav li {
+  display:inline-block;
+  width: 20%;
+  margin-left: 4%;
+  padding-left: 4%;
+}
+
+.bottomnav {
+  background-color: white;
+}
+
+.bottomnav li img{
+  width: 40%;
+  height: 10%;
+  margin-left: 5%;
+  /* margin-left: 7%;
+  margin-right: 7%; */
+}
+
+.bottomnav li p {
+  color: #A1A1A1;
 }
