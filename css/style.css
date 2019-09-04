@@ -103,7 +103,16 @@ nav {
 }
 
 .green {
-  background-color: #4cd964;
+  background-color: #4CD964;
+}
+
+.grey {
+  background-color: #CECED2;
+}
+
+.orange {
+  background-color: #FF9600;
+  opacity: .9;
 }
 
 .bottomnav {
